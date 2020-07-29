@@ -1,0 +1,36 @@
+{
+  "name": "gui-service-log",
+  "version": "1.0.3",
+  "main": "dist/ServiceLog.umd.min.js",
+  "scripts": {
+    "serve": "vue-cli-service serve src/Example.js",
+    "build": "vue-cli-service build --target lib --name ServiceLog src/ServiceLog.vue",
+    "lint": "vue-cli-service lint"
+  },
+  "devDependencies": {
+    "highlight": "github:ianlucas/highlight",
+    "lodash.sortby": "^4.7.0",
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11",
+    "vue": "^2.6.11",
+    "core-js": "^3.6.4"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "dependencies": {
+    "file-saver": "^2.0.2"
+  }
+}
