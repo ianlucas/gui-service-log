@@ -1,6 +1,6 @@
 {
   "name": "gui-service-log",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/GuiServiceLog.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve src/Example.js",
