@@ -1,10 +1,10 @@
 {
   "name": "gui-service-log",
   "version": "1.0.3",
-  "main": "dist/ServiceLog.umd.min.js",
+  "main": "dist/GuiServiceLog.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve src/Example.js",
-    "build": "vue-cli-service build --target lib --name ServiceLog src/ServiceLog.vue",
+    "build": "vue-cli-service build --target lib --name GuiServiceLog src/GuiServiceLog.vue",
     "lint": "vue-cli-service lint"
   },
   "devDependencies": {

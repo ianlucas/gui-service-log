@@ -1,11 +1,11 @@
 
 import Vue from 'vue'
-import ServiceLog from './ServiceLog.vue'
+import GuiServiceLog from './GuiServiceLog.vue'
 import sampleRows from './sampleRows'
 
 new Vue({
   render: (h) => (
-    h(ServiceLog, {
+    h(GuiServiceLog, {
       props: {
         records: sampleRows,
         settings: {
