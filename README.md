@@ -1,13 +1,25 @@
-# Vue Service Log
+# gui-service-log
+
+## Instalation
 
 ```bash
-npm install vue-service-log
+npm install ianlucas/gui-service-log
 ```
+Refer to `src/Example.js` for usage example.
 
-Refer to `src/Example.vue` for usage example.
+## API Reference
 
-<p align="center">
-  <img alt="Service Log" src="https://raw.githubusercontent.com/ianlucas/vue-service-log/master/service-log.png">
-</p>
+### `GuiServiceLog` component
 
-License: MIT
+`GuiServiceLog` helps you visualize service request and response logs.
+
+#### props
+
+| Name           | Description                                                                    | Type      |
+| -------------- | ------------------------------------------------------------------------------ | --------- |
+| `records`      | List of records.                                                    | `Array`   |
+| `settings`     | An object of settings.                                                         | `Object`  |
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
